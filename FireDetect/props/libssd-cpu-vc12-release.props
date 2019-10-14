@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)3rdParty\caffe\include;$(SolutionDir)3rdParty\boost\include;$(SolutionDir)3rdParty\gflags\include;$(SolutionDir)3rdParty\glog\include;$(SolutionDir)3rdParty\hdf5\include;$(SolutionDir)3rdParty\leveldb\include;$(SolutionDir)3rdParty\lmdb\include;$(SolutionDir)3rdParty\OpenBLAS\include;$(SolutionDir)3rdParty\OpenCV\include;$(SolutionDir)3rdParty\protobuf\include;$(SolutionDir)3rdParty\libssd\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)3rdParty\caffe\x64;$(SolutionDir)3rdParty\boost\x64;$(SolutionDir)3rdParty\gflags\x64;$(SolutionDir)3rdParty\glog\x64;$(SolutionDir)3rdParty\hdf5\x64;$(SolutionDir)3rdParty\leveldb\x64;$(SolutionDir)3rdParty\lmdb\x64;$(SolutionDir)3rdParty\OpenBLAS\x64;$(SolutionDir)3rdParty\OpenCV\lib\x64;$(SolutionDir)3rdParty\protobuf\x64;$(SolutionDir)3rdParty\libssd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcaffe_cpu.lib;libssd_cpu.lib;opencv_calib3d2411.lib;opencv_contrib2411.lib;opencv_core2411.lib;opencv_features2d2411.lib;opencv_flann2411.lib;opencv_gpu2411.lib;opencv_highgui2411.lib;opencv_imgproc2411.lib;opencv_legacy2411.lib;opencv_ml2411.lib;opencv_nonfree2411.lib;opencv_objdetect2411.lib;opencv_ocl2411.lib;opencv_photo2411.lib;opencv_stitching2411.lib;opencv_superres2411.lib;opencv_ts2411.lib;opencv_video2411.lib;opencv_videostab2411.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
